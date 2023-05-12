@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+	<link rel="stylesheet" type="text/css" href="produtos.css">
+	
+    <body>
+        <div id="main">
+            <input type="button" class="cor1" onclick="trocar('#666666')">
+            <input type="button" class="cor2" onclick="trocar('#d6d6d6')">
+        </div> 
+        <h1>Produtos</h1>
+      
+        
+        <div id="produtos-container">
+            <div class="produto">
+                <img src="./imagens/neymar1.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Camiseta NJR versão 1</h3>
+                <p class="descricao-produto">Camiseta neymar estilizada neymar, com fotos dele no santos e no PSG.</p>
+                <p class="preco-produto">R$ 100,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar2.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Camiseta NJR versão Seleção BR</h3>
+                <p class="descricao-produto">Camiseta estilizada neymar, com fotos dele na seleção braisleira.</p>
+                <p class="preco-produto">R$ 100,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar3.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Camiseta NJR versão 2</h3>
+                <p class="descricao-produto">Camiseta neymar estilizada neymar, com fotos dele no santos e no PSG E SELEÇÃO.</p>
+                <p class="preco-produto">R$ 100,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar4.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Uniforme FULL BR</h3>
+                <p class="descricao-produto">Uniforme completo NJR da seleção 2022.</p>
+                <p class="preco-produto">R$ 500,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar5.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Moletom neymar junior</h3>
+                <p class="descricao-produto">Moletom estilizado do ney, com fotos dele no psg.</p>
+                <p class="preco-produto">R$ 200,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar6.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Camiseta Teamliga NJR</h3>
+                <p class="descricao-produto">A camiseta NJR contém a colab PUMA e Neymar Jr. Exclusiva, carrega o emblema do NJR.</p>
+                <p class="preco-produto">R$ 100,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar7.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Uniforme FULL PSG</h3>
+                <p class="descricao-produto">Uniforme completo neymar junior, versão PSG.</p>
+                <p class="preco-produto">R$ 500,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar8.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Sandália neymar junior PSG</h3>
+                <p class="descricao-produto">Sandalia do ney, PSG.</p>
+                <p class="preco-produto">R$ 50,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar9.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Caneca Neymar jr</h3>
+                <p class="descricao-produto">Caneca com uma arte conceitual do neymar estampada.</p>
+                <p class="preco-produto">R$ 50,00</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/neymar10.jpeg" alt="neymarproduto" class="imagem-produto">
+                <h3 class="nome-produto">Chuteira Puma Future Z 4.4 Campo</h3>
+                <p class="descricao-produto">Mais adaptável e confortável a tecnologia Dynamic Motion System proporciona tração superior para movimentos multidirecionais explosivos.
+                    .</p>
+                <p class="preco-produto">R$ 399,90</p>
+                <button class="botao-carrinho" data-produto="0">Adicionar ao carrinho</button>
+            </div>
+            
+        </div>
+            <script src="produtos.js"></script>
+    </body>
+    <footer>
+        <p>Este site foi atualizado em <time datetime="2023-05-11">12 de maio de 2023</time>.</p>
+        <p>Entre em contato:</p>
+            <ul>
+                <li><i class="fa fa-phone"></i> (11) 97552-8155</li>
+            </ul>
+        <p>Siga-nos nas redes sociais:</p>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/fellype-dos-santos-laes-265822264"><i class="fa fa-linkedin"></i>Linkedin</a></li>
+              <li><a href="https://instagram.com/imnotlaes?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i>Instagram</a></li>  
+            </ul>    
+    </footer>
+    </html>
